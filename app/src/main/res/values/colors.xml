@@ -3,4 +3,27 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="Principal_red">#ff0000</color>
+    <color name="sec_red">#ff5500</color>
+    <color name="tre_red">#ff8000</color>
+    <color name="cua_red">#ff8170</color>
+    <color name="qui_red">#ff0050</color>
+    <color name="sext_red">#ff0070</color>
+
+    <color name="Principal_green">#00ff00</color>
+    <color name="sec_green">#00ff70</color>
+    <color name="tre_green">#00ff90</color>
+    <color name="cua_green">#99ff99</color>
+    <color name="qui_green">#99ff00</color>
+    <color name="sext_green">#99ff89</color>
+
+    <color name="Principal_blue">#0000ff</color>
+    <color name="sec_blue">#0099ff</color>
+    <color name="tre_blue">#9099ff</color>
+    <color name="cua_blue">#9000ff</color>
+    <color name="qui_blue">#9079ff</color>
+    <color name="sext_blue">#9839ff</color>
+
+
 </resources>
