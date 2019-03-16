@@ -5,28 +5,29 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    private LinearLayout Layout1;
-    private LinearLayout Layout2;
-    private LinearLayout Layout3;
+    private Button Boton1;
+    private Button Boton2;
+    private Button Boton3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Layout1=findViewById(R.id.layout1);
-        Layout2=findViewById(R.id.layout2);
-        Layout3=findViewById(R.id.layout3);
+        Boton1=findViewById(R.id.boton1);
+        Boton2=findViewById(R.id.boton2);
+        Boton3=findViewById(R.id.boton3);
 
-        Layout1.setOnClickListener(new View.OnClickListener() {
+        Boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Layout1.setOnClickListener(new View.OnClickListener() {
+                Boton1.setOnClickListener(new View.OnClickListener() {
                     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                     @Override
                     public void onClick(View v) {
@@ -34,22 +35,22 @@ public class MainActivity extends AppCompatActivity {
 
                         switch(nume){
                             case 1:
-                                Layout1.setBackgroundResource(R.color.Principal_red);
+                                Boton1.setBackgroundResource(R.color.Principal_red);
                                 break;
                             case 2:
-                                Layout1.setBackgroundResource(R.color.sec_red);
+                                Boton1.setBackgroundResource(R.color.sec_red);
                                 break;
                             case 3:
-                                Layout1.setBackgroundResource(R.color.tre_red);
+                                Boton1.setBackgroundResource(R.color.tre_red);
                                 break;
                             case 4:
-                                Layout1.setBackgroundResource(R.color.cua_red);
+                                Boton1.setBackgroundResource(R.color.cua_red);
                                 break;
                             case 5:
-                                Layout1.setBackgroundResource(R.color.qui_red);
+                                Boton1.setBackgroundResource(R.color.qui_red);
                                 break;
                             case 6:
-                                Layout1.setBackgroundResource(R.color.sext_red);
+                                Boton1.setBackgroundResource(R.color.sext_red);
                                 break;
                         }
                     }
@@ -57,11 +58,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Layout2.setOnClickListener(new View.OnClickListener() {
+        Boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Layout2.setOnClickListener(new View.OnClickListener() {
+                Boton2.setOnClickListener(new View.OnClickListener() {
                     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                     @Override
                     public void onClick(View v) {
@@ -69,22 +70,22 @@ public class MainActivity extends AppCompatActivity {
 
                         switch(nume1){
                             case 1:
-                                Layout2.setBackgroundResource(R.color.Principal_green);
+                                Boton2.setBackgroundResource(R.color.Principal_green);
                                 break;
                             case 2:
-                                Layout2.setBackgroundResource(R.color.sec_green);
+                                Boton2.setBackgroundResource(R.color.sec_green);
                                 break;
                             case 3:
-                                Layout2.setBackgroundResource(R.color.tre_green);
+                                Boton2.setBackgroundResource(R.color.tre_green);
                                 break;
                             case 4:
-                                Layout2.setBackgroundResource(R.color.cua_green);
+                                Boton2.setBackgroundResource(R.color.cua_green);
                                 break;
                             case 5:
-                                Layout2.setBackgroundResource(R.color.qui_green);
+                                Boton2.setBackgroundResource(R.color.qui_green);
                                 break;
                             case 6:
-                                Layout2.setBackgroundResource(R.color.sext_green);
+                                Boton2.setBackgroundResource(R.color.sext_green);
                                 break;
                         }
                     }
@@ -93,11 +94,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Layout3.setOnClickListener(new View.OnClickListener() {
+        Boton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Layout3.setOnClickListener(new View.OnClickListener() {
+                Boton3.setOnClickListener(new View.OnClickListener() {
                     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                     @Override
                     public void onClick(View v) {
@@ -105,22 +106,22 @@ public class MainActivity extends AppCompatActivity {
 
                         switch(nume2){
                             case 1:
-                                Layout3.setBackgroundResource(R.color.Principal_blue);
+                                Boton3.setBackgroundResource(R.color.Principal_blue);
                                 break;
                             case 2:
-                                Layout3.setBackgroundResource(R.color.sec_blue);
+                                Boton3.setBackgroundResource(R.color.sec_blue);
                                 break;
                             case 3:
-                                Layout3.setBackgroundResource(R.color.tre_blue);
+                                Boton3.setBackgroundResource(R.color.tre_blue);
                                 break;
                             case 4:
-                                Layout3.setBackgroundResource(R.color.cua_blue);
+                                Boton3.setBackgroundResource(R.color.cua_blue);
                                 break;
                             case 5:
-                                Layout3.setBackgroundResource(R.color.qui_blue);
+                                Boton3.setBackgroundResource(R.color.qui_blue);
                                 break;
                             case 6:
-                                Layout3.setBackgroundResource(R.color.sext_blue);
+                                Boton3.setBackgroundResource(R.color.sext_blue);
                                 break;
                         }
                     }

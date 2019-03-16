@@ -7,34 +7,34 @@
     android:orientation="vertical"
     android:layout_weight="3">
 
-    <LinearLayout
-        android:id="@+id/layout1"
+    <Button
+        android:id="@+id/boton1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@color/Principal_red"
         android:orientation="vertical">
 
-    </LinearLayout>
+    </Button>
 
-    <LinearLayout
-        android:id="@+id/layout2"
+    <Button
+        android:id="@+id/boton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@color/Principal_green"
         android:orientation="vertical">
 
-    </LinearLayout>
+    </Button>
 
-    <LinearLayout
-        android:id="@+id/layout3"
+    <Button
+        android:id="@+id/boton3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@color/Principal_blue"
         android:orientation="vertical">
 
-    </LinearLayout>
+    </Button>
 
 </LinearLayout>
